@@ -7,4 +7,4 @@ if (word1.length > word2.length) {
    message.innerHTML = `la parola "${word2}" è più lunga quindi stampo: ${word2}${word1}`;
 } else {
    message.innerHTML = `sono lunghe uguali`;
-
+}
