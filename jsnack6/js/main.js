@@ -3,7 +3,7 @@
 const number = ['2', '12', '2', '15', '2', '50', '2', '80', '2'];
 // trovo gli item in posizione dispari
 let sum = 0;
-for (let i = 1; i < number.length; i += 2) {
+for (let i = 0; i < number.length; i += 2) {
    let oddPositionNumber = Number(number[i]);
    sum += oddPositionNumber;
 }
