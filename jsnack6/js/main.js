@@ -13,9 +13,11 @@ const number = [
 ];
 // trovo gli item in posizione dispari
 let sum = 0;
-for (let i = 0; i < number.length; i += 2) {
-   let oddPositionNumber = number[i];
-   sum += oddPositionNumber;
+for (let i = 0; i < number.length; i++) {
+   if (i % 2 === 0) {
+      let oddPositionNumber = number[i];
+      sum += oddPositionNumber;
+   }
 }
 document.getElementById('message').innerHTML = `numeri dell'array ${number}  la somma è ${sum}`;
 console.log(sum, 'la somma');
